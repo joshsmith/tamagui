@@ -11,6 +11,7 @@ export interface IconStyleProps extends StackStyleBase {
   size?: number | SizeTokens
   strokeWidth?: number | SizeTokens
   color?: string
+  absoluteStrokeWidth?: boolean
 }
 
 export type NonStyleProps = Omit<SvgProps, keyof IconStyleProps> & {
